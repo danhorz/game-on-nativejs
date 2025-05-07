@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <template id="combate">
+            <div class="contenido-pelea">
+               <div class="slot">
+                <div class="vida-contenedor">
+                    <div id="controlVida1"></div>
+                </div>
+                
+                <h1 id="numeroVidap1"></h1>
+                <img id="img-p1" style="height:40rem;" alt="">
+                <button id="ataque1P1" class="ataque">-</button>
+                <button id="ataque2P1" class="ataque">-</button>
+                <button id="ataque3P1"class="ataque">-</button>
+               </div>
+               <div class="slot">
+                <div class="vida-contenedor">
+                    <div id="controlVida2"></div>
+                </div>
+                <h1 id="numeroVidap2"></h1>
+                <img id="img-p2" style="height:40rem;" alt="">
+                
+                <button id="ataque1P2" class="ataque">-</button>
+                <button id="ataque2P2" class="ataque">-</button>
+                <button id="ataque3P2"class="ataque">-</button>
+               </div> 
+            </div>
+        </template>
+        <img class="logo" src="./assets/logo.png" alt="">
+        <p>ELIGE:</p>
+        <div class="contenedor-personajes">
+            
+            <button id="goku">
+                <img class="ico" src="./assets/goku.png">
+                <p>GOKU</p>
+            </button id="vegetap1">
+            <button id="vegeta">
+                <img class="ico" src="./assets/vegeta.png">
+                <p>VEGETA</p>
+            </button>
+           
+
+        </div>
+        
+        <div class="contenedor-final">
+            <label for="">Player1:</label>
+            <p id="persona1-eleccion">-</p>
+            <button id="jugar">JUGAR</button>
+            <label for="">Player2:</label>
+            <p id="persona2-eleccion">-</p>
+        </div>
+        <script src="app.js"></script>
+    </main>
+
+</body>
+
+</html>
